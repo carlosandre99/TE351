@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Temporizador/Temporizador_tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Temporizador/Temporizador_tb_beh.prj" "work.Temporizador_tb" 

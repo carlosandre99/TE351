@@ -1,0 +1,14 @@
+NET "rst" LOC = "G18";
+NET "ena" LOC = "H18";
+NET "clk" LOC = "B8";
+NET "anod0" LOC = "F15";
+NET "anod1" LOC = "H17";
+NET "anod2" LOC = "C18";
+NET "anod3" LOC = "F17";
+NET "dig[0]" LOC = "H14";
+NET "dig[1]" LOC = "J17";
+NET "dig[2]" LOC = "G14";
+NET "dig[3]" LOC = "D16";
+NET "dig[4]" LOC = "D17";
+NET "dig[5]" LOC = "F18";
+NET "dig[6]" LOC = "L18";

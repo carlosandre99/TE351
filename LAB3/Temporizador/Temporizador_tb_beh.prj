@@ -1,0 +1,2 @@
+vhdl work "Temporizador.vhd"
+vhdl work "Temporizador_tb.vhd"
