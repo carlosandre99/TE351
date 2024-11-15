@@ -1,0 +1,7 @@
+V3 4
+FL C:/Users/Carlos/Desktop/LAB1/parte1/reg_mux.vhd 2024/03/18.10:48:03 P.20131013
+EN work/reg_mux 1710769687 FL C:/Users/Carlos/Desktop/LAB1/parte1/reg_mux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/reg_mux/Behavioral 1710769688 \
+      FL C:/Users/Carlos/Desktop/LAB1/parte1/reg_mux.vhd EN work/reg_mux 1710769687
+FL C:/Users/Carlos/Desktop/MICRO_2023/LAB1/parte1/reg_mux.vhd 2023/08/21.15:02:05 P.20131013
