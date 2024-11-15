@@ -1,0 +1,17 @@
+NET "binary_in(0)" LOC = "G18";
+NET "binary_in(1)" LOC = "H18";
+NET "binary_in(2)" LOC = "K18";
+NET "binary_in(3)" LOC = "K17";
+NET "binary_in(4)" LOC = "L14";
+NET "binary_in(5)" LOC = "L13";
+NET "binary_in(6)" LOC = "N17";
+NET "binary_in(7)" LOC = "R17";
+
+NET "gray_out(0)" LOC = "J14";
+NET "gray_out(1)" LOC = "J15";
+NET "gray_out(2)" LOC = "K15";
+NET "gray_out(3)" LOC = "K14";
+NET "gray_out(4)" LOC = "E17";
+NET "gray_out(5)" LOC = "P15";
+NET "gray_out(6)" LOC = "F4";
+NET "gray_out(7)" LOC = "R4";

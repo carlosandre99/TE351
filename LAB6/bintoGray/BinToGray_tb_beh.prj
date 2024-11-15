@@ -1,0 +1,2 @@
+vhdl work "BinToGray.vhd"
+vhdl work "BinToGray_tb.vhd"

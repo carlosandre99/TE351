@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Aluno\bintoGray\BinToGray.ncd
+OUTFILE=C:\Users\Aluno\bintoGray\BinToGray.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Aluno\bintoGray
+LICENSE=WebPack
+USER_INFO=210743554_0_0_851

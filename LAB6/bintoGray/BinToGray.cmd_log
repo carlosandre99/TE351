@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/Aluno/bintoGray/BinToGray.xst" -ofn "C:/Users/Aluno/bintoGray/BinToGray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+par -w -intstyle ise -ol high -t 1 BinToGray_map.ncd BinToGray.ncd BinToGray.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinToGray.twx BinToGray.ncd -o BinToGray.twr BinToGray.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+par -w -intstyle ise -ol high -t 1 BinToGray_map.ncd BinToGray.ncd BinToGray.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinToGray.twx BinToGray.ncd -o BinToGray.twr BinToGray.pcf 
+bitgen -intstyle ise -f BinToGray.ut BinToGray.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinToGray_pins.ucf -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinToGray_pins.ucf -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+par -w -intstyle ise -ol high -t 1 BinToGray_map.ncd BinToGray.ncd BinToGray.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinToGray.twx BinToGray.ncd -o BinToGray.twr BinToGray.pcf -ucf BinToGray_pins.ucf 
+bitgen -intstyle ise -f BinToGray.ut BinToGray.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.xst" -ofn "C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinToGray_pins.ucf -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+par -w -intstyle ise -ol high -t 1 BinToGray_map.ncd BinToGray.ncd BinToGray.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinToGray.twx BinToGray.ncd -o BinToGray.twr BinToGray.pcf -ucf BinToGray_pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.xst" -ofn "C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinToGray_pins.ucf -p xc3s500e-fg320-5 BinToGray.ngc BinToGray.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o BinToGray_map.ncd BinToGray.ngd BinToGray.pcf 
+par -w -intstyle ise -ol high -t 1 BinToGray_map.ncd BinToGray.ncd BinToGray.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinToGray.twx BinToGray.ncd -o BinToGray.twr BinToGray.pcf -ucf BinToGray_pins.ucf 
