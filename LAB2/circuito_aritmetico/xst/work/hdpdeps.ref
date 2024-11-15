@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.vhd 2024/03/27.21:07:54 P.20131013
+EN work/circuito_aritmetico 1711586087 \
+      FL C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/circuito_aritmetico/Behavioral 1711586088 \
+      FL C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.vhd \
+      EN work/circuito_aritmetico 1711586087
+FL C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.vhd 2023/08/30.14:20:05 P.20131013

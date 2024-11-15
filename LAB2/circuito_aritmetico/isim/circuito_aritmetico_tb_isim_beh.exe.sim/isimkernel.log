@@ -1,0 +1,28 @@
+Command line:
+   circuito_aritmetico_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50953
+
+Wed Mar 27 20:00:42 2024
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5155.58 Meg
+
+ Total Signals          : 17
+ Total Nets             : 38
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 522
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4683.72 Meg
+
+Wed Mar 27 20:33:18 2024
+
