@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Mar 27 19:31:59 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ssd<1>" LOCATE = SITE "J15" LEVEL 1;
+COMP "ssd<0>" LOCATE = SITE "J14" LEVEL 1;
+COMP "ssd<2>" LOCATE = SITE "K15" LEVEL 1;
+COMP "ent<0>" LOCATE = SITE "G18" LEVEL 1;
+COMP "ent<1>" LOCATE = SITE "H18" LEVEL 1;
+COMP "ssd<4>" LOCATE = SITE "E17" LEVEL 1;
+COMP "ent<2>" LOCATE = SITE "K18" LEVEL 1;
+COMP "ssd<5>" LOCATE = SITE "P15" LEVEL 1;
+COMP "ent<3>" LOCATE = SITE "K17" LEVEL 1;
+COMP "ssd<6>" LOCATE = SITE "F4" LEVEL 1;
+COMP "ent<4>" LOCATE = SITE "L14" LEVEL 1;
+COMP "ssd<7>" LOCATE = SITE "R4" LEVEL 1;
+COMP "ent<5>" LOCATE = SITE "L13" LEVEL 1;
+COMP "ent<6>" LOCATE = SITE "N17" LEVEL 1;
+COMP "ent<7>" LOCATE = SITE "R17" LEVEL 1;
+COMP "ssd<3>" LOCATE = SITE "K14" LEVEL 1;
+SCHEMATIC END;
+

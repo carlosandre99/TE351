@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Carlos\Desktop\LAB2\ordenador\ordenador.ncd
+OUTFILE=C:\Users\Carlos\Desktop\LAB2\ordenador\ordenador.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Carlos\Desktop\LAB2\ordenador
+LICENSE=WebPack
+USER_INFO=__0_0_0

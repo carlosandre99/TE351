@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+bitgen -intstyle ise -f ordenador.ut ordenador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f ordenador.ut ordenador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f ordenador.ut ordenador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 ordenador.ngc ordenador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ordenador_map.ncd ordenador.ngd ordenador.pcf 
+par -w -intstyle ise -ol high -t 1 ordenador_map.ncd ordenador.ncd ordenador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ordenador.twx ordenador.ncd -o ordenador.twr ordenador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f ordenador.ut ordenador.ncd 
