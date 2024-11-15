@@ -1,0 +1,8 @@
+EN display NULL C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/display.vhd sub00/vhpl02 1714083591
+EN deb NULL C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/deb.vhd sub00/vhpl00 1714083589
+AR display behavioral C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/display.vhd sub00/vhpl03 1714083592
+AR decoder behavioral C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/decoder.vhd sub00/vhpl05 1714083594
+AR deb behavioral C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/deb.vhd sub00/vhpl01 1714083590
+AR codigo_principal behavioral C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd sub00/vhpl07 1714083596
+EN codigo_principal NULL C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd sub00/vhpl06 1714083595
+EN decoder NULL C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/decoder.vhd sub00/vhpl04 1714083593
