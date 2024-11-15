@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Aluno/bintoGray/BinToGray.vhd 2024/06/05.19:44:57 P.20131013
+FL C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.vhd 2024/06/11.05:13:30 P.20131013
+EN work/BinToGray 1718093615 \
+      FL C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/BinToGray/Behavioral 1718093616 \
+      FL C:/Users/Carlos/Desktop/bintoGray/bintoGray/BinToGray.vhd \
+      EN work/BinToGray 1718093615
