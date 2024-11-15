@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder_tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder_tb_beh.prj" "work.SignedAdder_tb" 

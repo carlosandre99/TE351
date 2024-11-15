@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+netgen -intstyle ise -ar Structure -tm SignedAdder -w -dir netgen/synthesis -ofmt vhdl -sim SignedAdder.ngc SignedAdder_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+netgen -intstyle ise -ar Structure -tm SignedAdder -w -dir netgen/synthesis -ofmt vhdl -sim SignedAdder.ngc SignedAdder_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+bitgen -intstyle ise -f SignedAdder.ut SignedAdder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+bitgen -intstyle ise -f SignedAdder.ut SignedAdder.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+bitgen -intstyle ise -f SignedAdder.ut SignedAdder.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.xst" -ofn "C:/Users/Carlos/Desktop/SomaSIGNED/SomaSIGNED/SomaSIGNED/SignedAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SomaSIGNED_pins.ucf -p xc3s500e-fg320-5 SignedAdder.ngc SignedAdder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SignedAdder_map.ncd SignedAdder.ngd SignedAdder.pcf 
+par -w -intstyle ise -ol high -t 1 SignedAdder_map.ncd SignedAdder.ncd SignedAdder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml SignedAdder.twx SignedAdder.ncd -o SignedAdder.twr SignedAdder.pcf -ucf SomaSIGNED_pins.ucf 
+bitgen -intstyle ise -f SignedAdder.ut SignedAdder.ncd 
