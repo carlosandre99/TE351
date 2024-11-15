@@ -1,0 +1,12 @@
+V3 6
+FL C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.vhd 2023/09/22.15:22:38 P.20131013
+FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.vhd 2024/04/10.19:30:54 P.20131013
+EN work/Contador 1712788260 \
+      FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Contador/Behavioral 1712788261 \
+      FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.vhd \
+      EN work/Contador 1712788260
+FL "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_ 0_9/Contador_0_9/Contador.vhd" 2023/09/16.18:57:55 P.20131013
+FL C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.vhd 2023/09/16.19:43:07 P.20131013
