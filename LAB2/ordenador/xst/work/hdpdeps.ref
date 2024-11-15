@@ -1,0 +1,9 @@
+V3 4
+FL C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.vhd 2024/03/27.19:27:08 P.20131013
+EN work/ordenador 1711578700 \
+      FL C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ordenador/Behavioral 1711578701 \
+      FL C:/Users/Carlos/Desktop/LAB2/ordenador/ordenador.vhd EN work/ordenador 1711578700
+FL C:/Users/Carlos/Desktop/MICRO_2023/LAB2/ordenador/ordenador.vhd 2023/08/28.15:36:02 P.20131013
