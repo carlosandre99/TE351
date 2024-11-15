@@ -1,0 +1,4 @@
+vhdl work "LFSR_Random.vhd"
+vhdl work "BinTo7Seg.vhd"
+vhdl work "Alfabeto.vhd"
+vhdl work "Top.vhd"

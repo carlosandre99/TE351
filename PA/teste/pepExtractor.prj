@@ -1,0 +1,4 @@
+work	"Alfabeto.vhd"
+work	"BinTo7Seg.vhd"
+work	"LFSR_Random.vhd"
+work	"Top.vhd"

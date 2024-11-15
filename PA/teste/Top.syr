@@ -1,0 +1,509 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd" in Library work.
+Entity <lfsr_random_6bits> compiled.
+Entity <lfsr_random_6bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd" in Library work.
+Architecture behavioral of Entity alfabeto is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd" in Library work.
+Architecture behavioral of Entity binto7seg is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/PA/teste/Top.vhd" in Library work.
+Architecture behavioral of Entity top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LFSR_Random_6Bits> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <Alfabeto> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BinTo7Seg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Top> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/Carlos/Desktop/PA/teste/Top.vhd" line 122: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <BinTo7Seg_seg>, <Alfabeto_seg>
+Entity <Top> analyzed. Unit <Top> generated.
+
+Analyzing Entity <LFSR_Random_6Bits> in library <work> (Architecture <Behavioral>).
+Entity <LFSR_Random_6Bits> analyzed. Unit <LFSR_Random_6Bits> generated.
+
+Analyzing Entity <Alfabeto> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd" line 45: Mux is complete : default of case is discarded
+Entity <Alfabeto> analyzed. Unit <Alfabeto> generated.
+
+Analyzing Entity <BinTo7Seg> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd" line 29: Mux is complete : default of case is discarded
+Entity <BinTo7Seg> analyzed. Unit <BinTo7Seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LFSR_Random_6Bits>.
+    Related source file is "C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd".
+    Found 8-bit register for signal <lfsr>.
+    Found 1-bit xor2 for signal <lfsr$xor0000> created at line 20.
+Unit <LFSR_Random_6Bits> synthesized.
+
+
+Synthesizing Unit <Alfabeto>.
+    Related source file is "C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd".
+    Found 32x7-bit ROM for signal <seg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Alfabeto> synthesized.
+
+
+Synthesizing Unit <BinTo7Seg>.
+    Related source file is "C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd".
+    Found 16x7-bit ROM for signal <seg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <BinTo7Seg> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "C:/Users/Carlos/Desktop/PA/teste/Top.vhd".
+WARNING:Xst:646 - Signal <random_num<2:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit up counter for signal <btn_counter>.
+    Found 1-bit register for signal <btn_edge_detected>.
+    Found 1-bit register for signal <btn_last_state>.
+    Found 32-bit up counter for signal <counter>.
+    Found 5-bit register for signal <displayed_value>.
+    Found 32-bit comparator less for signal <seg$cmp_lt0000> created at line 125.
+    Found 32-bit comparator less for signal <seg$cmp_lt0001> created at line 126.
+    Found 1-bit register for signal <slow_clk>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 32x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 5
+ 1-bit register                                        : 3
+ 5-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 32-bit comparator less                                : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 32x7-bit ROM                                          : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 2
+ 32-bit comparator less                                : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top.ngr
+Top Level Output File Name         : Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 395
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 64
+#      LUT2                        : 74
+#      LUT3                        : 6
+#      LUT4                        : 66
+#      MUXCY                       : 98
+#      MUXF5                       : 12
+#      MUXF6                       : 1
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 80
+#      FDC                         : 39
+#      FDCE                        : 38
+#      FDP                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      115  out of   4656     2%  
+ Number of Slice Flip Flops:             80  out of   9312     0%  
+ Number of 4 input LUTs:                217  out of   9312     2%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 72    |
+slow_clk                           | NONE(LFSR_inst/lfsr_7) | 8     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 80    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.679ns (Maximum Frequency: 176.073MHz)
+   Minimum input arrival time before clock: 2.518ns
+   Maximum output required time after clock: 10.021ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.679ns (frequency: 176.073MHz)
+  Total number of paths / destination ports: 3175 / 104
+-------------------------------------------------------------------------
+Delay:               5.679ns (Levels of Logic = 33)
+  Source:            btn_counter_1 (FF)
+  Destination:       btn_counter_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: btn_counter_1 to btn_counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.514   0.651  btn_counter_1 (btn_counter_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_btn_counter_cy<1>_rt (Mcount_btn_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_btn_counter_cy<1> (Mcount_btn_counter_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<2> (Mcount_btn_counter_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<3> (Mcount_btn_counter_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<4> (Mcount_btn_counter_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<5> (Mcount_btn_counter_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<6> (Mcount_btn_counter_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<7> (Mcount_btn_counter_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<8> (Mcount_btn_counter_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<9> (Mcount_btn_counter_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<10> (Mcount_btn_counter_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<11> (Mcount_btn_counter_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<12> (Mcount_btn_counter_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<13> (Mcount_btn_counter_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<14> (Mcount_btn_counter_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<15> (Mcount_btn_counter_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<16> (Mcount_btn_counter_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<17> (Mcount_btn_counter_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<18> (Mcount_btn_counter_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<19> (Mcount_btn_counter_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<20> (Mcount_btn_counter_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<21> (Mcount_btn_counter_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<22> (Mcount_btn_counter_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<23> (Mcount_btn_counter_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<24> (Mcount_btn_counter_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<25> (Mcount_btn_counter_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<26> (Mcount_btn_counter_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<27> (Mcount_btn_counter_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<28> (Mcount_btn_counter_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_btn_counter_cy<29> (Mcount_btn_counter_cy<29>)
+     MUXCY:CI->O           0   0.052   0.000  Mcount_btn_counter_cy<30> (Mcount_btn_counter_cy<30>)
+     XORCY:CI->O           1   0.699   0.426  Mcount_btn_counter_xor<31> (Result<31>1)
+     LUT2:I1->O            1   0.612   0.000  Mcount_btn_counter_eqn_311 (Mcount_btn_counter_eqn_31)
+     FDCE:D                    0.268          btn_counter_31
+    ----------------------------------------
+    Total                      5.679ns (4.603ns logic, 1.077ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'slow_clk'
+  Clock period: 1.997ns (frequency: 500.663MHz)
+  Total number of paths / destination ports: 9 / 8
+-------------------------------------------------------------------------
+Delay:               1.997ns (Levels of Logic = 1)
+  Source:            LFSR_inst/lfsr_6 (FF)
+  Destination:       LFSR_inst/lfsr_0 (FF)
+  Source Clock:      slow_clk rising
+  Destination Clock: slow_clk rising
+
+  Data Path: LFSR_inst/lfsr_6 to LFSR_inst/lfsr_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.514   0.603  LFSR_inst/lfsr_6 (LFSR_inst/lfsr_6)
+     LUT2:I0->O            1   0.612   0.000  LFSR_inst/Mxor_lfsr_xor0000_Result1 (LFSR_inst/lfsr_xor0000)
+     FDP:D                     0.268          LFSR_inst/lfsr_0
+    ----------------------------------------
+    Total                      1.997ns (1.394ns logic, 0.603ns route)
+                                       (69.8% logic, 30.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.518ns (Levels of Logic = 2)
+  Source:            sw (PAD)
+  Destination:       btn_edge_detected (FF)
+  Destination Clock: clk rising
+
+  Data Path: sw to btn_edge_detected
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  sw_IBUF (sw_IBUF)
+     LUT2:I0->O            1   0.612   0.000  btn_edge_detected_and00001 (btn_edge_detected_and0000)
+     FDC:D                     0.268          btn_edge_detected
+    ----------------------------------------
+    Total                      2.518ns (1.986ns logic, 0.532ns route)
+                                       (78.9% logic, 21.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 761 / 7
+-------------------------------------------------------------------------
+Offset:              10.021ns (Levels of Logic = 14)
+  Source:            btn_counter_1 (FF)
+  Destination:       seg<1> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: btn_counter_1 to seg<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.514   0.651  btn_counter_1 (btn_counter_1)
+     LUT2:I0->O            1   0.612   0.000  Mcompar_seg_cmp_lt0000_lut<0> (Mcompar_seg_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Mcompar_seg_cmp_lt0000_cy<0> (Mcompar_seg_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<1> (Mcompar_seg_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<2> (Mcompar_seg_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<3> (Mcompar_seg_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<4> (Mcompar_seg_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<5> (Mcompar_seg_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<6> (Mcompar_seg_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcompar_seg_cmp_lt0000_cy<7> (Mcompar_seg_cmp_lt0000_cy<7>)
+     MUXCY:CI->O          13   0.399   0.905  Mcompar_seg_cmp_lt0000_cy<8> (Mcompar_seg_cmp_lt0000_cy<8>)
+     LUT4:I1->O            1   0.612   0.387  seg<1>129 (seg<1>129)
+     LUT4:I2->O            1   0.612   0.426  seg<1>161 (seg<1>161)
+     LUT2:I1->O            1   0.612   0.357  seg<1>172 (seg_1_OBUF)
+     OBUF:I->O                 3.169          seg_1_OBUF (seg<1>)
+    ----------------------------------------
+    Total                     10.021ns (7.295ns logic, 2.726ns route)
+                                       (72.8% logic, 27.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.21 secs
+ 
+--> 
+
+Total memory usage is 4515020 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

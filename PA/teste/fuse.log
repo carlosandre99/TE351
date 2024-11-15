@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Carlos/Desktop/PA/teste/Testbench_isim_beh.exe -prj C:/Users/Carlos/Desktop/PA/teste/Testbench_beh.prj work.Testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/PA/teste/Top_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity LFSR_Random_6Bits [lfsr_random_6bits_default]
+Compiling architecture behavioral of entity BinTo7Seg [binto7seg_default]
+Compiling architecture behavioral of entity Alfabeto [alfabeto_default]
+Compiling architecture behavioral of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/Carlos/Desktop/PA/teste/Testbench_isim_beh.exe
+Fuse Memory Usage: 34932 KB
+Fuse CPU Usage: 733 ms
