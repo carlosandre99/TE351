@@ -1,0 +1,104 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o
+circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf
+
+Design file:              circuito_aritmetico.ncd
+Physical constraint file: circuito_aritmetico.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |cout           |   11.140|
+a<0>           |y<0>           |   10.374|
+a<0>           |y<1>           |   11.092|
+a<0>           |y<2>           |   10.522|
+a<0>           |y<3>           |   10.445|
+a<1>           |cout           |   10.656|
+a<1>           |y<1>           |   10.391|
+a<1>           |y<2>           |    9.821|
+a<1>           |y<3>           |    9.880|
+a<2>           |cout           |   10.124|
+a<2>           |y<2>           |    8.812|
+a<2>           |y<3>           |    9.348|
+a<3>           |cout           |    9.567|
+a<3>           |y<3>           |    8.791|
+b<0>           |cout           |   10.903|
+b<0>           |y<0>           |   10.137|
+b<0>           |y<1>           |   10.855|
+b<0>           |y<2>           |   10.285|
+b<0>           |y<3>           |   10.208|
+b<1>           |cout           |   10.952|
+b<1>           |y<1>           |   10.687|
+b<1>           |y<2>           |   10.117|
+b<1>           |y<3>           |   10.176|
+b<2>           |cout           |    9.865|
+b<2>           |y<2>           |    8.553|
+b<2>           |y<3>           |    9.089|
+b<3>           |cout           |    9.917|
+b<3>           |y<3>           |    9.141|
+cin            |cout           |    7.953|
+cin            |y<0>           |    7.842|
+cin            |y<1>           |    8.495|
+cin            |y<2>           |    7.708|
+cin            |y<3>           |    7.631|
+opcode<0>      |cout           |    9.046|
+opcode<0>      |y<0>           |    8.602|
+opcode<0>      |y<1>           |    9.255|
+opcode<0>      |y<2>           |    8.468|
+opcode<0>      |y<3>           |    8.391|
+opcode<1>      |cout           |    9.971|
+opcode<1>      |y<0>           |    9.200|
+opcode<1>      |y<1>           |    9.853|
+opcode<1>      |y<2>           |    9.066|
+opcode<1>      |y<3>           |    8.989|
+opcode<2>      |cout           |    9.502|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Mar 27 21:40:57 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4510 MB
+
+
+

@@ -1,0 +1,12 @@
+NET "cout" LOC = "K15";
+NET "y(1)" LOC = "J15";
+NET "y(0)" LOC = "J14";	
+
+NET "a(0)" LOC = "G18"; 
+NET "a(1)" LOC = "H18";	
+NET "b(0)" LOC = "K18";
+NET "b(1)" LOC = "K17";
+NET "cin" LOC = "L14";
+NET "opcode(0)" LOC = "L13";
+NET "opcode(1)" LOC = "N17";
+NET "opcode(2)" LOC = "R17";

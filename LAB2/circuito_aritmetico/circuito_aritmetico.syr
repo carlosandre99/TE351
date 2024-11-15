@@ -1,0 +1,316 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.33 secs
+ 
+--> Reading design: circuito_aritmetico.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "circuito_aritmetico.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "circuito_aritmetico"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : circuito_aritmetico
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.vhd" in Library work.
+Entity <circuito_aritmetico> compiled.
+Entity <circuito_aritmetico> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <circuito_aritmetico> in library <work> (architecture <behavioral>) with generics.
+	N = 4
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <circuito_aritmetico> in library <work> (Architecture <behavioral>).
+	N = 4
+Entity <circuito_aritmetico> analyzed. Unit <circuito_aritmetico> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <circuito_aritmetico>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.vhd".
+    Found 5-bit addsub for signal <saida>.
+    Found 5-bit adder for signal <saida$addsub0000>.
+    Found 5-bit 8-to-1 multiplexer for signal <saida$mux0001>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   5 Multiplexer(s).
+Unit <circuito_aritmetico> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 5-bit addsub                                          : 1
+# Multiplexers                                         : 1
+ 5-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 5-bit adder                                           : 1
+ 5-bit addsub                                          : 1
+# Multiplexers                                         : 1
+ 5-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <circuito_aritmetico> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block circuito_aritmetico, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : circuito_aritmetico.ngr
+Top Level Output File Name         : circuito_aritmetico
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 53
+#      GND                         : 1
+#      LUT2                        : 2
+#      LUT3                        : 7
+#      LUT4                        : 18
+#      MUXCY                       : 8
+#      MUXF5                       : 6
+#      VCC                         : 1
+#      XORCY                       : 10
+# IO Buffers                       : 17
+#      IBUF                        : 12
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       16  out of   4656     0%  
+ Number of 4 input LUTs:                 27  out of   9312     0%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.341ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 449 / 5
+-------------------------------------------------------------------------
+Delay:               10.341ns (Levels of Logic = 10)
+  Source:            b<1> (PAD)
+  Destination:       cout (PAD)
+
+  Data Path: b<1> to cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.106   0.721  b_1_IBUF (b_1_IBUF)
+     LUT3:I0->O            1   0.612   0.000  Madd_saida_addsub0000_lut<1> (Madd_saida_addsub0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  Madd_saida_addsub0000_cy<1> (Madd_saida_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_saida_addsub0000_cy<2> (Madd_saida_addsub0000_cy<2>)
+     XORCY:CI->O           1   0.699   0.357  Madd_saida_addsub0000_xor<3> (saida_addsub0000<3>)
+     MUXF5:S->O            1   0.641   0.509  saida_mux0000<3>_f5 (saida_mux0000<3>)
+     LUT4:I0->O            1   0.612   0.000  Maddsub_saida_lut<3> (Maddsub_saida_lut<3>)
+     MUXCY:S->O            0   0.404   0.000  Maddsub_saida_cy<3> (Maddsub_saida_cy<3>)
+     XORCY:CI->O           1   0.699   0.357  Maddsub_saida_xor<4> (cout_OBUF)
+     OBUF:I->O                 3.169          cout_OBUF (cout)
+    ----------------------------------------
+    Total                     10.341ns (8.398ns logic, 1.944ns route)
+                                       (81.2% logic, 18.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.38 secs
+ 
+--> 
+
+Total memory usage is 4498776 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

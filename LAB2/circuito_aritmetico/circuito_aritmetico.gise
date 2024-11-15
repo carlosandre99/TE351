@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="circuito_aritmetico.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="circuito_aritmetico.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="circuito_aritmetico.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="circuito_aritmetico.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="circuito_aritmetico.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="circuito_aritmetico.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="circuito_aritmetico.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="circuito_aritmetico.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="circuito_aritmetico.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="circuito_aritmetico.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="circuito_aritmetico.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="circuito_aritmetico.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="circuito_aritmetico.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="circuito_aritmetico.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito_aritmetico.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="circuito_aritmetico.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="circuito_aritmetico.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="circuito_aritmetico.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="circuito_aritmetico.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="circuito_aritmetico.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="circuito_aritmetico.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="circuito_aritmetico.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="circuito_aritmetico.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="circuito_aritmetico.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="circuito_aritmetico_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="circuito_aritmetico_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="circuito_aritmetico_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="circuito_aritmetico_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="circuito_aritmetico_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="circuito_aritmetico_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="circuito_aritmetico_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="circuito_aritmetico_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="circuito_aritmetico_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="circuito_aritmetico_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="circuito_aritmetico_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="circuito_aritmetico_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="circuito_aritmetico_summary.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito_aritmetico_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="circuito_aritmetico_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="circuito_aritmetico_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="circuito_aritmetico_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="circuito_aritmetico_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="circuito_aritmetico_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1693249631" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1693249631">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1711580194" xil_pn:in_ck="2952704296211396985" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1711580194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuito_aritmetico.vhd"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249734" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3789467369545625689" xil_pn:start_ts="1693249734">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249734" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-466008358209393751" xil_pn:start_ts="1693249734">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249631" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6632773820813488648" xil_pn:start_ts="1693249631">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1711580194" xil_pn:in_ck="2952704296211396985" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1711580194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuito_aritmetico.vhd"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1711580197" xil_pn:in_ck="2952704296211396985" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1826192764601549894" xil_pn:start_ts="1711580194">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb_beh.prj"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1711580441" xil_pn:in_ck="9048829707443948694" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2961382687681752855" xil_pn:start_ts="1711580441">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4489134884780052609" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6632773820813488648" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7265742995046859327" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1693249518" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8191915100662137362" xil_pn:start_ts="1693249518">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1711586097" xil_pn:in_ck="3851492723965009186" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8089463692441631813" xil_pn:start_ts="1711586081">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.lso"/>
+      <outfile xil_pn:name="circuito_aritmetico.ngc"/>
+      <outfile xil_pn:name="circuito_aritmetico.ngr"/>
+      <outfile xil_pn:name="circuito_aritmetico.prj"/>
+      <outfile xil_pn:name="circuito_aritmetico.stx"/>
+      <outfile xil_pn:name="circuito_aritmetico.syr"/>
+      <outfile xil_pn:name="circuito_aritmetico.xst"/>
+      <outfile xil_pn:name="circuito_aritmetico_tb_beh.prj"/>
+      <outfile xil_pn:name="circuito_aritmetico_vhdl.prj"/>
+      <outfile xil_pn:name="circuito_aritmetico_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1711581519" xil_pn:in_ck="4913312808198" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7723719504115117674" xil_pn:start_ts="1711581519">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1711586425" xil_pn:in_ck="-4406460603013877762" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5835985117354540875" xil_pn:start_ts="1711586415">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.bld"/>
+      <outfile xil_pn:name="circuito_aritmetico.ngd"/>
+      <outfile xil_pn:name="circuito_aritmetico_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1711586436" xil_pn:in_ck="-4406459196605259521" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1711586425">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.pcf"/>
+      <outfile xil_pn:name="circuito_aritmetico_map.map"/>
+      <outfile xil_pn:name="circuito_aritmetico_map.mrp"/>
+      <outfile xil_pn:name="circuito_aritmetico_map.ncd"/>
+      <outfile xil_pn:name="circuito_aritmetico_map.ngm"/>
+      <outfile xil_pn:name="circuito_aritmetico_map.xrpt"/>
+      <outfile xil_pn:name="circuito_aritmetico_summary.xml"/>
+      <outfile xil_pn:name="circuito_aritmetico_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1711586458" xil_pn:in_ck="-6695696730718646888" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1711586436">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.ncd"/>
+      <outfile xil_pn:name="circuito_aritmetico.pad"/>
+      <outfile xil_pn:name="circuito_aritmetico.par"/>
+      <outfile xil_pn:name="circuito_aritmetico.ptwx"/>
+      <outfile xil_pn:name="circuito_aritmetico.unroutes"/>
+      <outfile xil_pn:name="circuito_aritmetico.xpi"/>
+      <outfile xil_pn:name="circuito_aritmetico_pad.csv"/>
+      <outfile xil_pn:name="circuito_aritmetico_pad.txt"/>
+      <outfile xil_pn:name="circuito_aritmetico_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1711582291" xil_pn:in_ck="3851492723965000309" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1711582286">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.bgn"/>
+      <outfile xil_pn:name="circuito_aritmetico.bit"/>
+      <outfile xil_pn:name="circuito_aritmetico.drc"/>
+      <outfile xil_pn:name="circuito_aritmetico.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1711586458" xil_pn:in_ck="-4406644842542867333" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1711586453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="circuito_aritmetico.twr"/>
+      <outfile xil_pn:name="circuito_aritmetico.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

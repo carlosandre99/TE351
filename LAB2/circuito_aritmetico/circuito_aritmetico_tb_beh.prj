@@ -1,0 +1,2 @@
+vhdl work "circuito_aritmetico.vhd"
+vhdl work "circuito_aritmetico_tb.vhd"

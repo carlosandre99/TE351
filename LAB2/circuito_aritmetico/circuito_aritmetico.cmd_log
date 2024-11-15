@@ -1,0 +1,48 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f circuito_aritmetico.ut circuito_aritmetico.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f circuito_aritmetico.ut circuito_aritmetico.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f circuito_aritmetico.ut circuito_aritmetico.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 circuito_aritmetico.ngc circuito_aritmetico.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o circuito_aritmetico_map.ncd circuito_aritmetico.ngd circuito_aritmetico.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_aritmetico_map.ncd circuito_aritmetico.ncd circuito_aritmetico.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito_aritmetico.twx circuito_aritmetico.ncd -o circuito_aritmetico.twr circuito_aritmetico.pcf -ucf pins.ucf 

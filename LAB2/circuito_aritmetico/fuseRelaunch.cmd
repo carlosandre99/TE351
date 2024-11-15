@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico_tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/LAB2/circuito_aritmetico/circuito_aritmetico_tb_beh.prj" "work.circuito_aritmetico_tb" 
