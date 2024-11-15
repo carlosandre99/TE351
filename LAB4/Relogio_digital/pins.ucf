@@ -1,0 +1,20 @@
+NET "anodo(0)" LOC = "F17";
+NET "anodo(1)" LOC = "H17";
+NET "anodo(2)" LOC = "C18";
+NET "anodo(3)" LOC = "F15";
+
+NET "ssd(6)" LOC = "L18";
+NET "ssd(5)" LOC = "F18";
+NET "ssd(4)" LOC = "D17";
+NET "ssd(3)" LOC = "D16";
+NET "ssd(2)" LOC = "G14";
+NET "ssd(1)" LOC = "J17";
+NET "ssd(0)" LOC = "H14";
+
+NET "rst" LOC = "B18";
+
+NET "clk" LOC = "B8";
+
+NET "pausa" LOC = "G18";
+
+NET "conf" LOC = "H18";

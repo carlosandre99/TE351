@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb_beh.prj" "work.codigo_principal_tb" 

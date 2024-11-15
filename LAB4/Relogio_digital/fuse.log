@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb_isim_beh.exe -prj C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb_beh.prj work.codigo_principal_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/display.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/deb.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity deb [deb_default]
+Compiling architecture behavioral of entity display [\display(50000000)\]
+Compiling architecture behavioral of entity decoder [decoder_default]
+Compiling architecture behavioral of entity codigo_principal [\codigo_principal(50000000)\]
+Compiling architecture behavior of entity codigo_principal_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 11 VHDL Units
+Built simulation executable C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal_tb_isim_beh.exe
+Fuse Memory Usage: 29716 KB
+Fuse CPU Usage: 686 ms

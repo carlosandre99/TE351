@@ -1,0 +1,4 @@
+vhdl work "display.vhd"
+vhdl work "decoder.vhd"
+vhdl work "deb.vhd"
+vhdl work "codigo_principal.vhd"

@@ -1,0 +1,529 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.85 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.85 secs
+ 
+--> Reading design: codigo_principal.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "codigo_principal.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "codigo_principal"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : codigo_principal
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/deb.vhd" in Library work.
+Architecture behavioral of Entity deb is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/display.vhd" in Library work.
+Architecture behavioral of Entity display is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/decoder.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd" in Library work.
+Entity <codigo_principal> compiled.
+Entity <codigo_principal> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <codigo_principal> in library <work> (architecture <behavioral>) with generics.
+	fclk = 50
+
+Analyzing hierarchy for entity <deb> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <display> in library <work> (architecture <behavioral>) with generics.
+	fclk = 50000000
+
+Analyzing hierarchy for entity <decoder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <codigo_principal> in library <work> (Architecture <behavioral>).
+	fclk = 50
+WARNING:Xst:819 - "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd" line 50: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <conf>
+Entity <codigo_principal> analyzed. Unit <codigo_principal> generated.
+
+Analyzing Entity <deb> in library <work> (Architecture <behavioral>).
+Entity <deb> analyzed. Unit <deb> generated.
+
+Analyzing generic Entity <display> in library <work> (Architecture <behavioral>).
+	fclk = 50000000
+Entity <display> analyzed. Unit <display> generated.
+
+Analyzing Entity <decoder> in library <work> (Architecture <behavioral>).
+Entity <decoder> analyzed. Unit <decoder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <deb>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/deb.vhd".
+    Found 1-bit register for signal <deb>.
+    Found 26-bit up counter for signal <cont>.
+    Found 26-bit adder for signal <deb$add0000> created at line 19.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <deb> synthesized.
+
+
+Synthesizing Unit <display>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/display.vhd".
+    Found 26-bit up counter for signal <cont>.
+    Found 3-bit up counter for signal <valor_enable>.
+    Found 26-bit adder for signal <valor_enable$add0000> created at line 19.
+    Found 3-bit adder for signal <valor_enable$addsub0000> created at line 21.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <decoder>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/decoder.vhd".
+    Found 16x7-bit ROM for signal <ssd>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <decoder> synthesized.
+
+
+Synthesizing Unit <codigo_principal>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB4-2024_l/LAB4/Relogio_digital/codigo_principal.vhd".
+WARNING:Xst:1781 - Signal <relogio<4:5>> is used but never assigned. Tied to default value.
+    Found 4-bit up counter for signal <att_relogio>.
+    Found 4-bit adder for signal <att_relogio_0$add0000> created at line 73.
+    Found 6-bit adder for signal <att_relogio_0$add0001> created at line 69.
+    Found 6-bit comparator less for signal <att_relogio_0$cmp_lt0000> created at line 71.
+    Found 4-bit adder for signal <att_relogio_1$add0000> created at line 77.
+    Found 4-bit adder for signal <att_relogio_2$add0000> created at line 82.
+    Found 4-bit adder for signal <att_relogio_3$add0000> created at line 87.
+    Found 4-bit adder for signal <att_relogio_4$add0000> created at line 92.
+    Found 4-bit adder for signal <att_relogio_5$addsub0000> created at line 97.
+    Found 6-bit up counter for signal <cont>.
+    Found 6-bit comparator greatequal for signal <cont$cmp_ge0000> created at line 71.
+    Found 4-bit 6-to-1 multiplexer for signal <numero_atual>.
+    Summary:
+	inferred   7 Counter(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <codigo_principal> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 10
+ 26-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 6
+ 6-bit adder                                           : 1
+# Counters                                             : 10
+ 26-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 6
+ 6-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 2
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 4-bit 6-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 10
+ 26-bit adder                                          : 2
+ 3-bit adder                                           : 1
+ 4-bit adder                                           : 6
+ 6-bit adder                                           : 1
+# Counters                                             : 10
+ 26-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 6
+ 6-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 2
+ 6-bit comparator greatequal                           : 1
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 4-bit 6-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <codigo_principal> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block codigo_principal, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 86
+ Flip-Flops                                            : 86
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : codigo_principal.ngr
+Top Level Output File Name         : codigo_principal
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 441
+#      GND                         : 1
+#      INV                         : 13
+#      LUT1                        : 100
+#      LUT2                        : 9
+#      LUT3                        : 38
+#      LUT4                        : 51
+#      LUT4_D                      : 1
+#      MUXCY                       : 114
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 104
+# FlipFlops/Latches                : 86
+#      FDCE                        : 30
+#      FDR                         : 52
+#      FDRE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      120  out of   4656     2%  
+ Number of Slice Flip Flops:             86  out of   9312     0%  
+ Number of 4 input LUTs:                212  out of   9312     2%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 86    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+botao/deb(botao/deb:Q)             | NONE(att_relogio_0_0)  | 30    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.590ns (Maximum Frequency: 116.419MHz)
+   Minimum input arrival time before clock: 8.764ns
+   Maximum output required time after clock: 9.123ns
+   Maximum combinational path delay: 10.108ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.590ns (frequency: 116.419MHz)
+  Total number of paths / destination ports: 21929 / 168
+-------------------------------------------------------------------------
+Delay:               8.590ns (Levels of Logic = 28)
+  Source:            exibicao/cont_1 (FF)
+  Destination:       exibicao/valor_enable_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: exibicao/cont_1 to exibicao/valor_enable_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  exibicao/cont_1 (exibicao/cont_1)
+     LUT1:I0->O            1   0.612   0.000  exibicao/Madd_valor_enable_add0000_cy<1>_rt (exibicao/Madd_valor_enable_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  exibicao/Madd_valor_enable_add0000_cy<1> (exibicao/Madd_valor_enable_add0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<2> (exibicao/Madd_valor_enable_add0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<3> (exibicao/Madd_valor_enable_add0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<4> (exibicao/Madd_valor_enable_add0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<5> (exibicao/Madd_valor_enable_add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<6> (exibicao/Madd_valor_enable_add0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<7> (exibicao/Madd_valor_enable_add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<8> (exibicao/Madd_valor_enable_add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<9> (exibicao/Madd_valor_enable_add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<10> (exibicao/Madd_valor_enable_add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<11> (exibicao/Madd_valor_enable_add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<12> (exibicao/Madd_valor_enable_add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<13> (exibicao/Madd_valor_enable_add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<14> (exibicao/Madd_valor_enable_add0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<15> (exibicao/Madd_valor_enable_add0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<16> (exibicao/Madd_valor_enable_add0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  exibicao/Madd_valor_enable_add0000_cy<17> (exibicao/Madd_valor_enable_add0000_cy<17>)
+     XORCY:CI->O           1   0.699   0.509  exibicao/Madd_valor_enable_add0000_xor<18> (exibicao/valor_enable_add0000<18>)
+     LUT2:I0->O            1   0.612   0.000  exibicao/valor_enable_and00001_wg_lut<0> (exibicao/valor_enable_and00001_wg_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  exibicao/valor_enable_and00001_wg_cy<0> (exibicao/valor_enable_and00001_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  exibicao/valor_enable_and00001_wg_cy<1> (exibicao/valor_enable_and00001_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  exibicao/valor_enable_and00001_wg_cy<2> (exibicao/valor_enable_and00001_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  exibicao/valor_enable_and00001_wg_cy<3> (exibicao/valor_enable_and00001_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  exibicao/valor_enable_and00001_wg_cy<4> (exibicao/valor_enable_and00001_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  exibicao/valor_enable_and00001_wg_cy<5> (exibicao/valor_enable_and00001_wg_cy<5>)
+     MUXCY:CI->O          30   0.289   1.075  exibicao/valor_enable_and00001_wg_cy<6> (exibicao/valor_enable_and00001_wg_cy<6>)
+     LUT4:I3->O            3   0.612   0.451  exibicao/valor_enable_and00001 (exibicao/valor_enable_and0000)
+     FDRE:R                    0.795          exibicao/valor_enable_0
+    ----------------------------------------
+    Total                      8.590ns (6.022ns logic, 2.568ns route)
+                                       (70.1% logic, 29.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 57 / 57
+-------------------------------------------------------------------------
+Offset:              8.764ns (Levels of Logic = 7)
+  Source:            pausa (PAD)
+  Destination:       att_relogio_5_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: pausa to att_relogio_5_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.603  pausa_IBUF (pausa_IBUF)
+     LUT4:I0->O            1   0.612   0.360  att_relogio_5_not0001211_SW1 (N30)
+     LUT4:I3->O            5   0.612   0.541  att_relogio_5_not000121 (att_relogio_1_not0001)
+     LUT4:I3->O            6   0.612   0.599  att_relogio_5_not00012 (att_relogio_2_not0001)
+     LUT3:I2->O            1   0.612   0.360  att_relogio_5_not00014_SW1 (N36)
+     LUT4:I3->O            5   0.612   0.541  att_relogio_5_not00014 (att_relogio_4_not0001)
+     LUT4:I3->O            4   0.612   0.499  att_relogio_5_not0001 (att_relogio_5_not0001)
+     FDCE:CE                   0.483          att_relogio_5_0
+    ----------------------------------------
+    Total                      8.764ns (5.261ns logic, 3.503ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 408 / 11
+-------------------------------------------------------------------------
+Offset:              9.123ns (Levels of Logic = 6)
+  Source:            att_relogio_2_3 (FF)
+  Destination:       ssd<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: att_relogio_2_3 to ssd<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.514   0.638  att_relogio_2_3 (att_relogio_2_3)
+     LUT3:I1->O            1   0.612   0.426  relogio_0_mux0000<3>1 (relogio<0><3>)
+     LUT3:I1->O            1   0.612   0.000  Mmux_numero_atual_73 (Mmux_numero_atual_73)
+     MUXF5:I0->O           5   0.278   0.690  Mmux_numero_atual_5_f5_2 (Mmux_numero_atual_5_f53)
+     LUT2:I0->O            3   0.612   0.603  decodificador/Mrom_ssd611 (N52)
+     LUT4:I0->O            1   0.612   0.357  decodificador/Mrom_ssd31 (ssd_3_OBUF)
+     OBUF:I->O                 3.169          ssd_3_OBUF (ssd<3>)
+    ----------------------------------------
+    Total                      9.123ns (6.409ns logic, 2.714ns route)
+                                       (70.3% logic, 29.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 140 / 7
+-------------------------------------------------------------------------
+Delay:               10.108ns (Levels of Logic = 7)
+  Source:            conf (PAD)
+  Destination:       ssd<3> (PAD)
+
+  Data Path: conf to ssd<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.106   1.031  conf_IBUF (conf_IBUF)
+     LUT3:I0->O            1   0.612   0.426  relogio_1_mux0000<3>1 (relogio<1><3>)
+     LUT3:I1->O            1   0.612   0.000  Mmux_numero_atual_63 (Mmux_numero_atual_63)
+     MUXF5:I1->O           5   0.278   0.690  Mmux_numero_atual_5_f5_2 (Mmux_numero_atual_5_f53)
+     LUT2:I0->O            3   0.612   0.603  decodificador/Mrom_ssd611 (N52)
+     LUT4:I0->O            1   0.612   0.357  decodificador/Mrom_ssd31 (ssd_3_OBUF)
+     OBUF:I->O                 3.169          ssd_3_OBUF (ssd<3>)
+    ----------------------------------------
+    Total                     10.108ns (7.001ns logic, 3.107ns route)
+                                       (69.3% logic, 30.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.49 secs
+ 
+--> 
+
+Total memory usage is 4515024 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

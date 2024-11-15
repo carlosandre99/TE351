@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Carlos\Desktop\LAB4-2024_l\LAB4\Relogio_digital\codigo_principal.ncd
+OUTFILE=C:\Users\Carlos\Desktop\LAB4-2024_l\LAB4\Relogio_digital\codigo_principal.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Carlos\Desktop\LAB4-2024_l\LAB4\Relogio_digital
+LICENSE=WebPack
+USER_INFO=__0_0_0

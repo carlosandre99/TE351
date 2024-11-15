@@ -1,0 +1,4 @@
+work	"codigo_principal.vhd"
+work	"deb.vhd"
+work	"decoder.vhd"
+work	"display.vhd"
