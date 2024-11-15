@@ -1,0 +1,117 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_ 0_9/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_ 0_9/Contador_0_9/Contador.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_ 0_9/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_ 0_9/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "Contador.ngc" Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 "Contador.ngc" Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Aluno/Downloads/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.xst" -ofn "C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Contador_0_9/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
