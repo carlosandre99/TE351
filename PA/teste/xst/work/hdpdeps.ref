@@ -1,0 +1,34 @@
+V3 22
+FL C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd 2024/06/18.21:35:32 P.20131013
+EN work/Alfabeto 1718893878 FL C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Alfabeto/Behavioral 1718893879 \
+      FL C:/Users/Carlos/Desktop/PA/teste/Alfabeto.vhd EN work/Alfabeto 1718893878
+FL C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd 2024/06/18.19:46:20 P.20131013
+EN work/BinTo7Seg 1718893880 FL C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BinTo7Seg/Behavioral 1718893881 \
+      FL C:/Users/Carlos/Desktop/PA/teste/BinTo7Seg.vhd EN work/BinTo7Seg 1718893880
+FL C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd 2024/06/20.11:31:11 P.20131013
+EN work/LFSR_Random_6Bits 1718893876 \
+      FL C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LFSR_Random_6Bits/Behavioral 1718893877 \
+      FL C:/Users/Carlos/Desktop/PA/teste/LFSR_Random.vhd \
+      EN work/LFSR_Random_6Bits 1718893876
+FL C:/Users/Carlos/Desktop/PA/teste/Mensagens.vhd 2024/06/19.17:47:43 P.20131013
+EN work/Mensagens 1718830071 FL C:/Users/Carlos/Desktop/PA/teste/Mensagens.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Mensagens/Behavioral 1718830072 \
+      FL C:/Users/Carlos/Desktop/PA/teste/Mensagens.vhd EN work/Mensagens 1718830071
+FL C:/Users/Carlos/Desktop/PA/teste/Top.vhd 2024/06/19.23:04:30 P.20131013
+EN work/Top 1718893882 FL C:/Users/Carlos/Desktop/PA/teste/Top.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Top/Behavioral 1718893883 \
+      FL C:/Users/Carlos/Desktop/PA/teste/Top.vhd EN work/Top 1718893882 \
+      CP work/LFSR_Random_6Bits CP Alfabeto CP BinTo7Seg
+FL C:/Users/Carlos/Desktop/teste/teste/Alfabeto.vhd 2024/06/18.21:35:32 P.20131013
+FL C:/Users/Carlos/Desktop/teste/teste/BinTo7Seg.vhd 2024/06/18.19:46:20 P.20131013
+FL C:/Users/Carlos/Desktop/teste/teste/LFSR_Random.vhd 2024/06/18.18:46:24 P.20131013
+FL C:/Users/Carlos/Desktop/teste/teste/Top.vhd 2024/06/18.21:33:59 P.20131013
