@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/Decoder_BCD_7-seg/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB2/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.xst" -ofn "C:/Users/Carlos/Desktop/LAB2/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 decoder.ngc decoder.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
