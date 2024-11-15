@@ -1,0 +1,11 @@
+V3 5
+FL C:/Users/Aluno/Downloads/LAB3/Temporizador/Temporizador.vhd 2023/09/22.14:59:49 P.20131013
+FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Temporizador/Temporizador.vhd 2024/04/10.19:29:54 P.20131013
+EN work/Temporizador 1712788200 \
+      FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Temporizador/Temporizador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Temporizador/Behavioral 1712788201 \
+      FL C:/Users/Carlos/Desktop/LAB3-20240403T225243Z-001/LAB3/Temporizador/Temporizador.vhd \
+      EN work/Temporizador 1712788200
+FL C:/Users/Carlos/Desktop/MICRO_2023/LAB3/Temporizador/Temporizador.vhd 2023/09/16.19:27:42 P.20131013
