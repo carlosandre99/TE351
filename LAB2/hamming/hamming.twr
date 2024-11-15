@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml hamming.twx hamming.ncd -o hamming.twr hamming.pcf -ucf
+pins.ucf
+
+Design file:              hamming.ncd
+Physical constraint file: hamming.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ent<0>         |ssd<0>         |   12.551|
+ent<0>         |ssd<1>         |   11.728|
+ent<0>         |ssd<2>         |   11.960|
+ent<0>         |ssd<3>         |   13.301|
+ent<0>         |ssd<4>         |   12.531|
+ent<0>         |ssd<5>         |   12.487|
+ent<0>         |ssd<6>         |   11.665|
+ent<1>         |ssd<0>         |   12.119|
+ent<1>         |ssd<1>         |   11.296|
+ent<1>         |ssd<2>         |   11.528|
+ent<1>         |ssd<3>         |   12.869|
+ent<1>         |ssd<4>         |   12.099|
+ent<1>         |ssd<5>         |   12.055|
+ent<1>         |ssd<6>         |   11.233|
+ent<2>         |ssd<0>         |   11.958|
+ent<2>         |ssd<1>         |   11.135|
+ent<2>         |ssd<2>         |   11.367|
+ent<2>         |ssd<3>         |   12.708|
+ent<2>         |ssd<4>         |   11.938|
+ent<2>         |ssd<5>         |   11.894|
+ent<2>         |ssd<6>         |   11.072|
+ent<3>         |ssd<0>         |   11.687|
+ent<3>         |ssd<1>         |   10.864|
+ent<3>         |ssd<2>         |   11.096|
+ent<3>         |ssd<3>         |   12.437|
+ent<3>         |ssd<4>         |   11.667|
+ent<3>         |ssd<5>         |   11.623|
+ent<3>         |ssd<6>         |   10.801|
+ent<4>         |ssd<0>         |   11.544|
+ent<4>         |ssd<1>         |   10.710|
+ent<4>         |ssd<2>         |   11.014|
+ent<4>         |ssd<3>         |   12.294|
+ent<4>         |ssd<4>         |   11.585|
+ent<4>         |ssd<5>         |   11.541|
+ent<4>         |ssd<6>         |   10.719|
+ent<5>         |ssd<0>         |   10.365|
+ent<5>         |ssd<1>         |    9.607|
+ent<5>         |ssd<2>         |   10.079|
+ent<5>         |ssd<3>         |   11.115|
+ent<5>         |ssd<4>         |   10.650|
+ent<5>         |ssd<5>         |   10.606|
+ent<5>         |ssd<6>         |    9.784|
+ent<6>         |ssd<0>         |   10.952|
+ent<6>         |ssd<1>         |   10.560|
+ent<6>         |ssd<2>         |   10.042|
+ent<6>         |ssd<3>         |   10.951|
+ent<6>         |ssd<4>         |   10.835|
+ent<6>         |ssd<5>         |   10.791|
+ent<6>         |ssd<6>         |    9.697|
+ent<7>         |ssd<0>         |    9.399|
+ent<7>         |ssd<1>         |    9.007|
+ent<7>         |ssd<2>         |    8.489|
+ent<7>         |ssd<3>         |    9.870|
+ent<7>         |ssd<4>         |    9.282|
+ent<7>         |ssd<5>         |    9.238|
+ent<7>         |ssd<6>         |    8.144|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Mar 27 19:45:04 2024 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4510 MB
+
+
+

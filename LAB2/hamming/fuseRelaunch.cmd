@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/LAB2/hamming/hamming_tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/LAB2/hamming/hamming_tb_beh.prj" "work.hamming_tb" 

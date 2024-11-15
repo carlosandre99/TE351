@@ -1,0 +1,2 @@
+vhdl isim_temp "hamming.vhd"
+vhdl isim_temp "hamming_tb.vhd"
