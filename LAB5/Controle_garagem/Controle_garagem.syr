@@ -1,0 +1,494 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: Controle_garagem.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Controle_garagem.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Controle_garagem"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Controle_garagem
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Controle_garagem is now defined in a different file.  It was defined in "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd", and is now defined in "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd".
+WARNING:HDLParsers:3607 - Unit work/Controle_garagem/Behavioral is now defined in a different file.  It was defined in "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd", and is now defined in "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd".
+WARNING:HDLParsers:3607 - Unit work/debounce is now defined in a different file.  It was defined in "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd", and is now defined in "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd".
+WARNING:HDLParsers:3607 - Unit work/debounce/Behavioral is now defined in a different file.  It was defined in "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd", and is now defined in "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd".
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd" in Library work.
+Architecture behavioral of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd" in Library work.
+Entity <controle_garagem> compiled.
+Entity <controle_garagem> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Controle_garagem> in library <work> (architecture <behavioral>) with generics.
+	fclk = 50000000
+	t1 = 30
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <behavioral>) with generics.
+	freqclk = 50000000
+	twindow = 30
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Controle_garagem> in library <work> (Architecture <behavioral>).
+	fclk = 50000000
+	t1 = 30
+Entity <Controle_garagem> analyzed. Unit <Controle_garagem> generated.
+
+Analyzing generic Entity <debounce> in library <work> (Architecture <behavioral>).
+	freqclk = 50000000
+	twindow = 30
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd".
+WARNING:Xst:1780 - Signal <flag> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 31-bit up counter for signal <count>.
+    Found 31-bit adder for signal <count$add0000> created at line 23.
+    Found 1-bit xor2 for signal <count$xor0000> created at line 22.
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <Controle_garagem>.
+    Related source file is "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd".
+WARNING:Xst:646 - Signal <remote_debounced> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <pr_state>.
+    Found 1-bit register for signal <ligar>.
+    Found 32-bit register for signal <cont>.
+    Found 1-bit register for signal <direcao_s>.
+    Found 4-bit register for signal <nx_state>.
+    Found 32-bit adder for signal <nx_state$add0000> created at line 68.
+    Found 4-bit register for signal <pr_state>.
+    Summary:
+	inferred  38 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Controle_garagem> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 31-bit adder                                          : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 1
+ 31-bit up counter                                     : 1
+# Registers                                            : 6
+ 1-bit register                                        : 3
+ 32-bit register                                       : 1
+ 4-bit register                                        : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <debounce_inst> is unconnected in block <Controle_garagem>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 31-bit adder                                          : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 1
+ 31-bit up counter                                     : 1
+# Registers                                            : 43
+ Flip-Flops                                            : 43
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Controle_garagem> ...
+
+Optimizing unit <debounce> ...
+WARNING:Xst:2677 - Node <debounce_inst/count_30> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_29> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_28> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_27> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_26> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_25> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_24> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_23> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_22> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_21> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_20> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_19> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_18> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_17> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_16> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_15> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_14> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_13> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_12> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_11> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_10> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_9> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_8> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_7> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_6> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_5> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_4> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_3> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_2> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_1> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/count_0> of sequential type is unconnected in block <Controle_garagem>.
+WARNING:Xst:2677 - Node <debounce_inst/temp> of sequential type is unconnected in block <Controle_garagem>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Controle_garagem, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Controle_garagem.ngr
+Top Level Output File Name         : Controle_garagem
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 170
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 31
+#      LUT2                        : 3
+#      LUT3                        : 3
+#      LUT3_D                      : 1
+#      LUT4                        : 55
+#      MUXCY                       : 39
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 42
+#      FD                          : 33
+#      FDC                         : 3
+#      FDP                         : 1
+#      FDR                         : 1
+#      FDRS                        : 1
+#      FDS                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 4
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       50  out of   4656     1%  
+ Number of Slice Flip Flops:             42  out of   9312     0%  
+ Number of 4 input LUTs:                 94  out of   9312     1%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 42    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 7.480ns (Maximum Frequency: 133.689MHz)
+   Minimum input arrival time before clock: 4.924ns
+   Maximum output required time after clock: 4.326ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.480ns (frequency: 133.689MHz)
+  Total number of paths / destination ports: 3888 / 46
+-------------------------------------------------------------------------
+Delay:               7.480ns (Levels of Logic = 35)
+  Source:            cont_1 (FF)
+  Destination:       ligar (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: cont_1 to ligar
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.532  cont_1 (cont_1)
+     LUT1:I0->O            1   0.612   0.000  Madd_nx_state_add0000_cy<1>_rt (Madd_nx_state_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Madd_nx_state_add0000_cy<1> (Madd_nx_state_add0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<2> (Madd_nx_state_add0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<3> (Madd_nx_state_add0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<4> (Madd_nx_state_add0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<5> (Madd_nx_state_add0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<6> (Madd_nx_state_add0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<7> (Madd_nx_state_add0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<8> (Madd_nx_state_add0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<9> (Madd_nx_state_add0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<10> (Madd_nx_state_add0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<11> (Madd_nx_state_add0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<12> (Madd_nx_state_add0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<13> (Madd_nx_state_add0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<14> (Madd_nx_state_add0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<15> (Madd_nx_state_add0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<16> (Madd_nx_state_add0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<17> (Madd_nx_state_add0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<18> (Madd_nx_state_add0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<19> (Madd_nx_state_add0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<20> (Madd_nx_state_add0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<21> (Madd_nx_state_add0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<22> (Madd_nx_state_add0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<23> (Madd_nx_state_add0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<24> (Madd_nx_state_add0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<25> (Madd_nx_state_add0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<26> (Madd_nx_state_add0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<27> (Madd_nx_state_add0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  Madd_nx_state_add0000_cy<28> (Madd_nx_state_add0000_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  Madd_nx_state_add0000_cy<29> (Madd_nx_state_add0000_cy<29>)
+     MUXCY:CI->O           0   0.052   0.000  Madd_nx_state_add0000_cy<30> (Madd_nx_state_add0000_cy<30>)
+     XORCY:CI->O           2   0.699   0.383  Madd_nx_state_add0000_xor<31> (nx_state_add0000<31>)
+     LUT4:I3->O            1   0.612   0.000  direcao_s_cmp_eq0000_wg_lut<7> (direcao_s_cmp_eq0000_wg_lut<7>)
+     MUXCY:S->O            6   0.752   0.599  direcao_s_cmp_eq0000_wg_cy<7> (direcao_s_cmp_eq0000)
+     LUT3:I2->O            1   0.612   0.000  ligar_mux00031 (ligar_mux00031)
+     FDS:D                     0.268          ligar
+    ----------------------------------------
+    Total                      7.480ns (5.967ns logic, 1.514ns route)
+                                       (79.8% logic, 20.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 21 / 11
+-------------------------------------------------------------------------
+Offset:              4.924ns (Levels of Logic = 5)
+  Source:            aberto (PAD)
+  Destination:       nx_state_3 (FF)
+  Destination Clock: clk rising
+
+  Data Path: aberto to nx_state_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.520  aberto_IBUF (aberto_IBUF)
+     LUT2:I1->O            4   0.612   0.529  nx_state_and00011 (nx_state_and0001)
+     LUT4:I2->O            1   0.612   0.000  nx_state_mux0000<0>_SW0_SW0_F (N36)
+     MUXF5:I0->O           1   0.278   0.387  nx_state_mux0000<0>_SW0_SW0 (N26)
+     LUT4:I2->O            1   0.612   0.000  nx_state_mux0000<0> (nx_state_mux0000<0>)
+     FD:D                      0.268          nx_state_3
+    ----------------------------------------
+    Total                      4.924ns (3.488ns logic, 1.436ns route)
+                                       (70.8% logic, 29.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.326ns (Levels of Logic = 1)
+  Source:            direcao_s (FF)
+  Destination:       direcao (PAD)
+  Source Clock:      clk rising
+
+  Data Path: direcao_s to direcao
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              8   0.514   0.643  direcao_s (direcao_s)
+     OBUF:I->O                 3.169          direcao_OBUF (direcao)
+    ----------------------------------------
+    Total                      4.326ns (3.683ns logic, 0.643ns route)
+                                       (85.1% logic, 14.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.58 secs
+ 
+--> 
+
+Total memory usage is 4514996 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   39 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

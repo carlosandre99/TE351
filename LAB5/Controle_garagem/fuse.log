@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb_isim_beh.exe -prj C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb_beh.prj work.tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd" into library work
+Parsing VHDL file "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity debounce [\debounce(50000000,30)\]
+Compiling architecture behavioral of entity Controle_garagem [\Controle_garagem(30,50000000)\]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Compiled 8 VHDL Units
+Built simulation executable C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb_isim_beh.exe
+Fuse Memory Usage: 36292 KB
+Fuse CPU Usage: 749 ms

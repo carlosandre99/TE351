@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb_isim_beh.exe" -prj "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/tb_beh.prj" "work.tb" 

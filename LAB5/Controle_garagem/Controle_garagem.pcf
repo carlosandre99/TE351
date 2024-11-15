@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri May 17 15:00:46 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ligar" LOCATE = SITE "J14" LEVEL 1;
+COMP "rst" LOCATE = SITE "K18" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "aberto" LOCATE = SITE "G18" LEVEL 1;
+COMP "remote" LOCATE = SITE "B18" LEVEL 1;
+COMP "fechado" LOCATE = SITE "H18" LEVEL 1;
+COMP "direcao" LOCATE = SITE "J15" LEVEL 1;
+SCHEMATIC END;
+

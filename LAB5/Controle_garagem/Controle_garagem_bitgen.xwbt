@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Carlos\Desktop\LAB5\Controle_garagem\Controle_garagem.ncd
+OUTFILE=C:\Users\Carlos\Desktop\LAB5\Controle_garagem\Controle_garagem.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Carlos\Desktop\LAB5\Controle_garagem
+LICENSE=WebPack
+USER_INFO=__0_0_0

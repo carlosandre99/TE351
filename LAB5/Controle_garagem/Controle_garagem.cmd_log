@@ -1,0 +1,105 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Controle_garagem.ut Controle_garagem.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Controle_garagem.ut Controle_garagem.ncd 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.xst" -ofn "C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pins.ucf -p xc3s500e-fg320-5 Controle_garagem.ngc Controle_garagem.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Controle_garagem_map.ncd Controle_garagem.ngd Controle_garagem.pcf 
+par -w -intstyle ise -ol high -t 1 Controle_garagem_map.ncd Controle_garagem.ncd Controle_garagem.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Controle_garagem.twx Controle_garagem.ncd -o Controle_garagem.twr Controle_garagem.pcf -ucf pins.ucf 
+bitgen -intstyle ise -f Controle_garagem.ut Controle_garagem.ncd 

@@ -1,0 +1,10 @@
+NET "clk" LOC = "B8";
+
+NET "remote" LOC = "B18";
+
+NET "aberto" LOC = "G18";
+NET "fechado" LOC = "H18";
+NET "rst" LOC = "K18";
+
+NET "ligar" LOC = "J14";
+NET "direcao" LOC = "J15";
