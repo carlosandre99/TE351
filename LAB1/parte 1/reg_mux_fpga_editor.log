@@ -1,0 +1,23 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\Carlos\Desktop\MICRO_2023\LAB1\parte1
+#Date/Time:
+#:T   Mon Aug 21 17:36:08 2023
+#------------------------------
+	#Reading reg_mux.ncd...
+	#Loading device for application Rf_Device from file '3s500e.nph' in environment K:\14.7\ISE_DS\ISE\.
+	#   "reg_mux" is an NCD, version 3.2, device xc3s500e, package fg320, speed -5
+	#Design creation date: 2023.08.21.20.35.31
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'a<0>'
+	#3
+unselect -all
+	#4
+unselect -all

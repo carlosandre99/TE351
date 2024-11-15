@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB1/parte1/reg_mux.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB1/parte1/reg_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 reg_mux.ngc reg_mux.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o reg_mux_map.ncd reg_mux.ngd reg_mux.pcf 
+par -w -intstyle ise -ol high -t 1 reg_mux_map.ncd reg_mux.ncd reg_mux.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_mux.twx reg_mux.ncd -o reg_mux.twr reg_mux.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/MICRO_2023/LAB1/parte1/reg_mux.xst" -ofn "C:/Users/Carlos/Desktop/MICRO_2023/LAB1/parte1/reg_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 reg_mux.ngc reg_mux.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o reg_mux_map.ncd reg_mux.ngd reg_mux.pcf 
+par -w -intstyle ise -ol high -t 1 reg_mux_map.ncd reg_mux.ncd reg_mux.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_mux.twx reg_mux.ncd -o reg_mux.twr reg_mux.pcf 
+xst -intstyle ise -ifn "C:/Users/Carlos/Desktop/LAB1/parte1/reg_mux.xst" -ofn "C:/Users/Carlos/Desktop/LAB1/parte1/reg_mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 reg_mux.ngc reg_mux.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o reg_mux_map.ncd reg_mux.ngd reg_mux.pcf 
+par -w -intstyle ise -ol high -t 1 reg_mux_map.ncd reg_mux.ncd reg_mux.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml reg_mux.twx reg_mux.ncd -o reg_mux.twr reg_mux.pcf 
