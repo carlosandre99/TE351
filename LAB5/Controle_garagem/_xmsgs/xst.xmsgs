@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Controle_garagem</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Controle_garagem/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/debounce</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/debounce/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">flag</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">remote_debounced</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">debounce_inst</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debounce_inst/temp</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Controle_garagem</arg>&gt;.
+</msg>
+
+</messages>
+

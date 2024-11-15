@@ -1,0 +1,19 @@
+V3 11
+FL C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/Controle_garagem.vhd 2024/05/17.14:47:19 P.20131013
+FL C:/Users/Carlos/Desktop/LAB5-20240430T002822Z-001/LAB5/Controle_garagem/debounce.vhd 2024/05/17.14:47:24 P.20131013
+FL C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/Controle_garagem.vhd 2023/10/08.13:05:59 P.20131013
+FL C:/Users/Carlos/Desktop/LAB5.1/Controle_garagem/debounce.vhd 2023/10/08.12:13:57 P.20131013
+FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd 2024/05/17.15:00:24 P.20131013
+EN work/Controle_garagem 1715968830 \
+      FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Controle_garagem/Behavioral 1715968831 \
+      FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/Controle_garagem.vhd \
+      EN work/Controle_garagem 1715968830 CP debounce
+FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd 2024/05/17.14:47:24 P.20131013
+EN work/debounce 1715968828 \
+      FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/debounce/Behavioral 1715968829 \
+      FL C:/Users/Carlos/Desktop/LAB5/Controle_garagem/debounce.vhd \
+      EN work/debounce 1715968828
